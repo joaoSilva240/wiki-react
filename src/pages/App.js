@@ -4,6 +4,7 @@ import { Conteiner } from "./styles";
 import Input from "../components/input";
 import ItemRepo from "../components/itemRepo";
 import { useState } from "react";
+import Button from "../components/button"
 
 function App() {
 const [repos,setRepos]=useState([]);
@@ -13,6 +14,7 @@ const [repos,setRepos]=useState([]);
      <Image/>
      <Input/>
     <ItemRepo/>
+    <Button/>
     </Conteiner>
   );
 }
